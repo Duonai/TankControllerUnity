@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{969845BE-C61E-3C5C-2845-736639E32FFE}</ProjectGuid>
+    <ProjectGuid>{A2D8FBDF-6E43-6505-92E2-18023339B160}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -97,6 +97,7 @@
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Layer_Settings_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\MainBody_Settings_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\SE_Control_CS.cs" />
+    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Socket_Communicator_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Touch_Pad_Event_Listener_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Track_Deform_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Track_Scroll_CS.cs" />

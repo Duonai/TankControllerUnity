@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 20
-  productGUID: a0a094a1ceabc4844950a7604adf9eec
+  productGUID: 94b863032c3f04247a9e9dc16155289d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: sampleProject
+  productName: TankControllerUnity
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -812,9 +812,9 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: d21921cf-19ec-480c-996b-7171e0fd2d37
+  cloudProjectId: c405c745-d138-435b-bffe-1f39b44b5502
   framebufferDepthMemorylessMode: 0
-  projectName: sampleProject 2026-06-23_14-16-22
+  projectName: TankControllerUnity
   organizationId: rwby2373
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
