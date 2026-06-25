@@ -31,7 +31,7 @@ public class TrackPacket
 public class Socket_Communicator_CS : MonoBehaviour
 {
     [Header("Network")]
-    public int port = 5000;
+    public int port = 5010;
 
     public float leftTrack = 0.0f;
     public float rightTrack = 0.0f;
@@ -79,8 +79,6 @@ public class Socket_Communicator_CS : MonoBehaviour
                 if (string.IsNullOrWhiteSpace(json))
                     continue;
 
-                Debug.Log($"RAW JSON = {json}");
-
                 try
                 {
                     TrackPacket packet =
@@ -124,11 +122,11 @@ public class Socket_Communicator_CS : MonoBehaviour
         }
 
         // Unity 메인 스레드에서 안전하게 사용
-        Debug.Log(
-            $"Pose:{data.has_pose} " +
-            $"Left:{data.left_value:F2}({data.left_label}) " +
-            $"Right:{data.right_value:F2}({data.right_label}) " +
-            $"Drive:{data.drive_label}");
+        //Debug.Log(
+        //    $"Pose:{data.has_pose} " +
+        //    $"Left:{data.left_value:F2}({data.left_label}) " +
+        //    $"Right:{data.right_value:F2}({data.right_label}) " +
+        //    $"Drive:{data.drive_label}");
 
         // 예시: 탱크 제어
         if (data.has_pose)

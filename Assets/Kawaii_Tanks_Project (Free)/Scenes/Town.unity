@@ -6250,6 +6250,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11410082, guid: 5c0378b47d76c394dbb09985cf5dc360, type: 3}
+      propertyPath: rotationSpeed
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410082, guid: 5c0378b47d76c394dbb09985cf5dc360, type: 3}
+      propertyPath: accelerationTime
+      value: 0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 11410082, guid: 5c0378b47d76c394dbb09985cf5dc360, type: 3}
+      propertyPath: decelerationTime
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 41258319005305804, guid: 5c0378b47d76c394dbb09985cf5dc360,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -46087,6 +46099,53 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1393453529}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1394368037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394368039}
+  - component: {fileID: 1394368038}
+  m_Layer: 0
+  m_Name: Communicator2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1394368038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394368037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb620ea49b6532442b26dea378f0bae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 5011
+  turret_yaw: 0
+  turret_pitch: 0
+  fire: idle
+--- !u!4 &1394368039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394368037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -23.52208, y: -16.307423, z: 8.585007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1395998925
 GameObject:
   m_ObjectHideFlags: 0
@@ -64863,7 +64922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1035f8dfbeec5b54e9e1ec2b5fd302ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  port: 5000
+  port: 5010
+  leftTrack: 0
+  rightTrack: 0
 --- !u!4 &1964861460
 Transform:
   m_ObjectHideFlags: 0

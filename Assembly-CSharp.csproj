@@ -97,6 +97,7 @@
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Layer_Settings_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\MainBody_Settings_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\SE_Control_CS.cs" />
+    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Socket_Communicator2_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Socket_Communicator_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Touch_Pad_Event_Listener_CS.cs" />
     <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Track_Deform_CS.cs" />

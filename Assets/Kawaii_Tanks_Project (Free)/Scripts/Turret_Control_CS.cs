@@ -15,9 +15,9 @@ namespace ChobiAssets.KTP
 		*/
 
         [Header("Turret movement settings")]
-        [Tooltip("Maximum rotation speed. (Degree per Second)")] public float rotationSpeed = 15.0f;
-        [Tooltip("Time to reach the maximum speed from zero. (Sec)")] public float accelerationTime = 0.2f;
-        [Tooltip("Time to stop from the maximum speed. (Sec)")] public float decelerationTime = 0.2f;
+        [Tooltip("Maximum rotation speed. (Degree per Second)")] public float rotationSpeed = 60.0f;
+        [Tooltip("Time to reach the maximum speed from zero. (Sec)")] public float accelerationTime = 0.05f;
+        [Tooltip("Time to stop from the maximum speed. (Sec)")] public float decelerationTime = 0.05f;
 
 
         Transform thisTransform;
@@ -30,6 +30,7 @@ namespace ChobiAssets.KTP
         float turnRate;
         float previousTurnRate;
         float bulletVelocity = 250.0f;
+        float previousParentAngleY;
 
 
         void Start()
@@ -49,6 +50,8 @@ namespace ChobiAssets.KTP
             var idScript = GetComponentInParent<ID_Control_CS>();
             aimingScript = idScript.aimingScript;
             bulletVelocity = idScript.fireSpawnScript.bulletVelocity;
+
+            previousParentAngleY = parentTransform.eulerAngles.y;
         }
 
 
@@ -80,6 +83,14 @@ namespace ChobiAssets.KTP
 
         void Auto_Turn()
         {
+            float currentParentAngleY = parentTransform.eulerAngles.y;
+            float parentAngleDelta = Mathf.DeltaAngle(previousParentAngleY, currentParentAngleY);
+            angleY -= parentAngleDelta;
+            previousParentAngleY = currentParentAngleY;
+
+            currentLocalAngles.y = angleY;
+            thisTransform.localEulerAngles = currentLocalAngles;
+
             if (isTurning == false)
             {
                 return;

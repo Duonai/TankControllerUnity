@@ -8,7 +8,14 @@ namespace ChobiAssets.KTP
     {
 #if !UNITY_ANDROID && !UNITY_IPHONE
 
-        [Tooltip("카메라 회전 속도")] public float keyRotationSpeed = 60f; // The speed of camera rotation by key input.
+        [Tooltip("카메라 회전 속도")] public float keyRotationSpeed = 30f; // The speed of camera rotation by key input.
+
+        private Socket_Communicator2_CS socket;
+
+        private void Start()
+        {
+            socket = GameObject.Find("Communicator2").GetComponent<Socket_Communicator2_CS>();
+        }
 
         public override void Get_Input()
         {
@@ -27,22 +34,17 @@ namespace ChobiAssets.KTP
             float horizontal = 0f;
             float vertical = 0f;
 
+            float pitch = socket.turret_yaw;
+            float yaw = socket.turret_pitch;
+
             // J = Left, L = Right, I = Up, K = Down
-            if (Input.GetKey(KeyCode.J))
+            if (pitch != 0)
             {
-                horizontal = -1f;
+                horizontal += pitch * 1.2f;
             }
-            else if (Input.GetKey(KeyCode.L))
+            if (yaw != 0)
             {
-                horizontal = 1f;
-            }
-            if (Input.GetKey(KeyCode.K))
-            {
-                vertical = 1f;
-            }
-            else if (Input.GetKey(KeyCode.I))
-            {
-                vertical = -1f;
+                vertical -= yaw * 0.5f;
             }
 
             cameraRotateScript.rotationInput = new Vector3(0f, horizontal, vertical) * keyRotationSpeed * Time.deltaTime;
