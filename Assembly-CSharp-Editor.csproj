@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D23C7952-320F-62A5-BF2E-7406F2AFC036}</ProjectGuid>
+    <ProjectGuid>{DA3D5CBD-8F45-317A-B1DD-9040F0BC2B10}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -56,8 +56,16 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Editor\Track_Deform_CSEditor.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Editor\Track_Scroll_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Barrel_Base_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Cannon_Base_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Create_RoadWheels_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Create_SprocketWheels_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Create_SupportWheels_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Create_Tracks_CSEditor.cs" />
+    <Compile Include="Assets\Editor\MainBody_Settings_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Track_Deform_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Track_Scroll_CSEditor.cs" />
+    <Compile Include="Assets\Editor\Turret_Base_CSEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -663,7 +671,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{A2D8FBDF-6E43-6505-92E2-18023339B160}</Project>
+      <Project>{79E842A1-3BB1-2530-078D-EB80EE57B139}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

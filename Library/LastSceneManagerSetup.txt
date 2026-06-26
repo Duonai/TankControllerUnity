@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Kawaii_Tanks_Project (Free)/Scenes/Town.unity
+- path: Assets/Scenes/01_Town_Battle_Allies.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

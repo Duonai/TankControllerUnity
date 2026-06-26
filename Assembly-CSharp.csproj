@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A2D8FBDF-6E43-6505-92E2-18023339B160}</ProjectGuid>
+    <ProjectGuid>{79E842A1-3BB1-2530-078D-EB80EE57B139}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,63 +56,96 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\AimMarker_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Aiming_Control_Scripts\Aiming_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_00_Base_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_01_Desktop_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_02_Mobile_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Armor_Collider_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Barrel_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Break_Object_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Bullet_Nav_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Avoid_Obstacle_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Manager_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_00_Base_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_01_Desktop_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_02_Mobile_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_88_Demo_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Zoom_Scripts\Camera_Zoom_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Zoom_Scripts\Camera_Zoom_Input_00_Base_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Zoom_Scripts\Camera_Zoom_Input_01_Desktop_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Camera_Zoom_Scripts\Camera_Zoom_Input_02_Mobile_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Cannon_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Damage_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Damage_Display_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Delete_Timer_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Extra_Collider_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Fire_Control_Scripts\Fire_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Fire_Control_Scripts\Fire_Control_Input_00_Base_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Fire_Control_Scripts\Fire_Control_Input_01_Desktop_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Fire_Control_Scripts\Fire_Control_Input_02_Mobile_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Fire_Spawn_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Game_Controller_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\General_Settings_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\GunCamera_Control_Scripts\GunCamera_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\GunCamera_Control_Scripts\GunCamera_Control_Input_00_Base_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\GunCamera_Control_Scripts\GunCamera_Control_Input_01_Desktop_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\GunCamera_Control_Scripts\GunCamera_Control_Input_02_Mobile_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\ID_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Key_Bindings_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Layer_Settings_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\MainBody_Settings_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\SE_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Socket_Communicator2_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Socket_Communicator_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Touch_Pad_Event_Listener_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Track_Deform_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Track_Scroll_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Turret_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Turret_Finishing_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Wheel_Control_Scripts\Wheel_Control_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_00_Base_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_01_Desktop_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_02_Mobile_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Wheel_Rotate_CS.cs" />
-    <Compile Include="Assets\Kawaii_Tanks_Project (Free)\Scripts\Wheel_Sync_CS.cs" />
+    <Compile Include="Assets\Scripts\AI_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\AI_Hand_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\AI_Headquaters_CS.cs" />
+    <Compile Include="Assets\Scripts\AI_Helper_CS.cs" />
+    <Compile Include="Assets\Scripts\AimMarker_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_00_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_02_Mobile_CS.cs" />
+    <Compile Include="Assets\Scripts\Armor_Collider_CS.cs" />
+    <Compile Include="Assets\Scripts\Audio_Manager_CS.cs" />
+    <Compile Include="Assets\Scripts\Barrel_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Barrel_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Break_Object_CS.cs" />
+    <Compile Include="Assets\Scripts\Bullet_Nav_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Avoid_Obstacle_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Manager_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_00_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_02_Mobile_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_88_Demo_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Zoom_Scripts\Camera_Zoom_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Zoom_Scripts\Camera_Zoom_Input_00_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Zoom_Scripts\Camera_Zoom_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Zoom_Scripts\Camera_Zoom_Input_02_Mobile_CS.cs" />
+    <Compile Include="Assets\Scripts\Cannon_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Cannon_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Create_RoadWheels_CS.cs" />
+    <Compile Include="Assets\Scripts\Create_SprocketWheels_CS.cs" />
+    <Compile Include="Assets\Scripts\Create_SupportWheels_CS.cs" />
+    <Compile Include="Assets\Scripts\Create_Tracks_CS.cs" />
+    <Compile Include="Assets\Scripts\Culling_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Damage_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Damage_Display_CS.cs" />
+    <Compile Include="Assets\Scripts\Delete_Timer_CS.cs" />
+    <Compile Include="Assets\Scripts\Event_Collider_CS.cs" />
+    <Compile Include="Assets\Scripts\Extra_Collider_CS.cs" />
+    <Compile Include="Assets\Scripts\FPS_Counter_CS.cs" />
+    <Compile Include="Assets\Scripts\Fade_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_00_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_02_Mobile_CS.cs" />
+    <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_99_AI_CS.cs" />
+    <Compile Include="Assets\Scripts\Fire_Spawn_CS.cs" />
+    <Compile Include="Assets\Scripts\Game_Controller_CS.cs" />
+    <Compile Include="Assets\Scripts\General_Settings_CS.cs" />
+    <Compile Include="Assets\Scripts\GunCamera_Control_Scripts\GunCamera_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\GunCamera_Control_Scripts\GunCamera_Control_Input_00_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\GunCamera_Control_Scripts\GunCamera_Control_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\GunCamera_Control_Scripts\GunCamera_Control_Input_02_Mobile_CS.cs" />
+    <Compile Include="Assets\Scripts\ID_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Key_Bindings_CS.cs" />
+    <Compile Include="Assets\Scripts\KillCounter_CS.cs" />
+    <Compile Include="Assets\Scripts\Layer_Settings_CS.cs" />
+    <Compile Include="Assets\Scripts\LeadMarker_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\MainBody_Settings_CS.cs" />
+    <Compile Include="Assets\Scripts\Message_Motion_CS.cs" />
+    <Compile Include="Assets\Scripts\Mobile_Difficulty_Manager_CS.cs" />
+    <Compile Include="Assets\Scripts\Obsolete_Scripts\Simple_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Option_Manager_CS.cs" />
+    <Compile Include="Assets\Scripts\PosMarker_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Reloading_Circle_CS.cs" />
+    <Compile Include="Assets\Scripts\Respawning_Circle_CS.cs" />
+    <Compile Include="Assets\Scripts\SE_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Scene_Open_CS.cs" />
+    <Compile Include="Assets\Scripts\Score_Manager_CS.cs" />
+    <Compile Include="Assets\Scripts\Socket_Communicator2_CS.cs" />
+    <Compile Include="Assets\Scripts\Socket_Communicator_CS.cs" />
+    <Compile Include="Assets\Scripts\Spawner_CS.cs" />
+    <Compile Include="Assets\Scripts\Tank_List_CS.cs" />
+    <Compile Include="Assets\Scripts\Touch_Pad_Event_Listener_CS.cs" />
+    <Compile Include="Assets\Scripts\Track_Deform_CS.cs" />
+    <Compile Include="Assets\Scripts\Track_Scroll_CS.cs" />
+    <Compile Include="Assets\Scripts\Turret_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Turret_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Turret_Finishing_CS.cs" />
+    <Compile Include="Assets\Scripts\Utility_Update_Layer_Settings_CS.cs" />
+    <Compile Include="Assets\Scripts\Warning_Image_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_00_Base_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_02_Mobile_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_99_AI_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Rotate_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Sync_CS.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Kawaii_Tanks_Project (Free)\ReadMe [Ver.2.0]\[01] How to Start (Ver.2.0).txt" />
+    <None Include="Assets\ReadMe [Ver.2.1]\[01] How to Start (Ver.2.1).txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
