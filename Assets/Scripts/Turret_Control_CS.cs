@@ -15,9 +15,9 @@ namespace ChobiAssets.KTP
 		*/
 
         [Header("Turret movement settings")]
-        [Tooltip("Maximum rotation speed. (Degree per Second)")] public float rotationSpeed = 60.0f;
-        [Tooltip("Time to reach the maximum speed from zero. (Sec)")] public float accelerationTime = 0.05f;
-        [Tooltip("Time to stop from the maximum speed. (Sec)")] public float decelerationTime = 0.05f;
+        [Tooltip("Maximum rotation speed. (Degree per Second)")] public float rotationSpeed = 10.0f;
+        [Tooltip("Time to reach the maximum speed from zero. (Sec)")] public float accelerationTime = 0.1f;
+        [Tooltip("Time to stop from the maximum speed. (Sec)")] public float decelerationTime = 0.1f;
 
 
         Transform thisTransform;
@@ -33,10 +33,16 @@ namespace ChobiAssets.KTP
         [HideInInspector] public bool isReady = true; // Referred to from "Fire_Control_Input_99_AI_CS".
         float previousParentAngleY;
 
+        private UnityServer server;
+        private UnityClient client;
 
         void Start()
         {
             Initialize();
+            if (transform.parent.CompareTag("Player") || transform.parent.CompareTag("Enemy"))
+                server = GameObject.Find("VersusServer").GetComponent<UnityServer>();
+            else if (transform.parent.CompareTag("Player2") || transform.parent.CompareTag("Enemy2"))
+                client = GameObject.Find("VersusClient").GetComponent<UnityClient>();
         }
 
 
@@ -147,8 +153,19 @@ namespace ChobiAssets.KTP
 
             // Rotate.
             angleY += rotationSpeed * turnRate * Time.fixedDeltaTime;
+
+            if (transform.parent.CompareTag("Enemy"))
+                angleY = server.turretYaw2P;
+            else if (transform.parent.CompareTag("Enemy2"))
+                angleY = client.turretYaw1P;
+
             currentLocalAngles.y = angleY;
             thisTransform.localEulerAngles = currentLocalAngles;
+
+            if (transform.parent.CompareTag("Player"))
+                server.turretYaw = angleY;
+            else if (transform.parent.CompareTag("Player2"))
+                client.turretYaw = angleY;
 
             // Set the "isReady" for AI.
             isReady = (targetAngle <= 2.0f);

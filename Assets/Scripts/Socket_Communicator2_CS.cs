@@ -35,7 +35,7 @@ public class TurretPacket
 public class Socket_Communicator2_CS : MonoBehaviour
 {
     [Header("Network")]
-    public int port = 5011;
+    public int port = 5013;
 
     public float turret_yaw = 0.0f;
     public float turret_pitch = 0.0f;
@@ -77,7 +77,7 @@ public class Socket_Communicator2_CS : MonoBehaviour
             StreamReader reader = new StreamReader(stream, Encoding.UTF8);
             byte[] buffer = new byte[4096];
 
-            while (true)
+            while (!shuttingDown)
             {
                 string json = reader.ReadLine();
 
@@ -144,20 +144,24 @@ public class Socket_Communicator2_CS : MonoBehaviour
         }
     }
 
+    void CloseSocket()
+    {
+        shuttingDown = true;
+
+        try { client?.Close(); } catch { }
+        try { listener?.Stop(); } catch { }
+
+        if (serverThread != null && serverThread.IsAlive)
+            serverThread.Join(200);
+    }
+
+    void OnDestroy()
+    {
+        CloseSocket();
+    }
+
     void OnApplicationQuit()
     {
-        try
-        {
-            shuttingDown = true;
-
-            client?.Close();
-            listener?.Stop();
-
-            if (serverThread != null && serverThread.IsAlive)
-                serverThread.Interrupt();
-        }
-        catch
-        {
-        }
+        CloseSocket();
     }
 }

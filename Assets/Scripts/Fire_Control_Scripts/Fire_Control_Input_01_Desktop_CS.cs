@@ -9,10 +9,17 @@ namespace ChobiAssets.KTP
 #if !UNITY_ANDROID && !UNITY_IPHONE
 
         private Socket_Communicator2_CS socket;
+        private UnityServer server;
+        private UnityClient client;
 
         private void Start()
         {
             socket = GameObject.Find("Communicator2").GetComponent<Socket_Communicator2_CS>();
+
+            if (transform.parent.CompareTag("Player"))
+                server = GameObject.Find("VersusServer").GetComponent<UnityServer>();
+            else if (transform.parent.CompareTag("Player2"))
+                client = GameObject.Find("VersusClient").GetComponent<UnityClient>();
         }
 
         public override void Get_Input()
@@ -29,6 +36,10 @@ namespace ChobiAssets.KTP
             if (fire != "idle")
             {
                 fireControlScript.Fire();
+                if (transform.parent.CompareTag("Player"))
+                    server.fire = true;
+                else if (transform.parent.CompareTag("Player2"))
+                    client.fire = true;
             }
         }
 #endif

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_CS.cs" />
     <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_00_Base_CS.cs" />
     <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_02_Desktop_CS.cs" />
     <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_02_Mobile_CS.cs" />
     <Compile Include="Assets\Scripts\Armor_Collider_CS.cs" />
     <Compile Include="Assets\Scripts\Audio_Manager_CS.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_CS.cs" />
     <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_00_Base_CS.cs" />
     <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_02_Desktop_CS.cs" />
     <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_02_Mobile_CS.cs" />
     <Compile Include="Assets\Scripts\Camera_Rotate_Scripts\Camera_Rotate_Input_88_Demo_CS.cs" />
     <Compile Include="Assets\Scripts\Camera_Zoom_Scripts\Camera_Zoom_CS.cs" />
@@ -99,6 +101,7 @@
     <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_CS.cs" />
     <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_00_Base_CS.cs" />
     <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_02_Desktop_CS.cs" />
     <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_02_Mobile_CS.cs" />
     <Compile Include="Assets\Scripts\Fire_Control_Scripts\Fire_Control_Input_99_AI_CS.cs" />
     <Compile Include="Assets\Scripts\Fire_Spawn_CS.cs" />
@@ -125,6 +128,7 @@
     <Compile Include="Assets\Scripts\Scene_Open_CS.cs" />
     <Compile Include="Assets\Scripts\Score_Manager_CS.cs" />
     <Compile Include="Assets\Scripts\Socket_Communicator2_CS.cs" />
+    <Compile Include="Assets\Scripts\Socket_Communicator3_CS.cs" />
     <Compile Include="Assets\Scripts\Socket_Communicator_CS.cs" />
     <Compile Include="Assets\Scripts\Spawner_CS.cs" />
     <Compile Include="Assets\Scripts\Tank_List_CS.cs" />
@@ -134,11 +138,14 @@
     <Compile Include="Assets\Scripts\Turret_Base_CS.cs" />
     <Compile Include="Assets\Scripts\Turret_Control_CS.cs" />
     <Compile Include="Assets\Scripts\Turret_Finishing_CS.cs" />
+    <Compile Include="Assets\Scripts\UnityClient.cs" />
+    <Compile Include="Assets\Scripts\UnityServer.cs" />
     <Compile Include="Assets\Scripts\Utility_Update_Layer_Settings_CS.cs" />
     <Compile Include="Assets\Scripts\Warning_Image_CS.cs" />
     <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_CS.cs" />
     <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_00_Base_CS.cs" />
     <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_01_Desktop_CS.cs" />
+    <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_02_Desktop_CS.cs" />
     <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_02_Mobile_CS.cs" />
     <Compile Include="Assets\Scripts\Wheel_Control_Scripts\Wheel_Control_Input_99_AI_CS.cs" />
     <Compile Include="Assets\Scripts\Wheel_Rotate_CS.cs" />

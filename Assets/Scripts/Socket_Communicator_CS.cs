@@ -31,7 +31,7 @@ public class TrackPacket
 public class Socket_Communicator_CS : MonoBehaviour
 {
     [Header("Network")]
-    public int port = 5010;
+    public int port = 5012;
 
     public float leftTrack = 0.0f;
     public float rightTrack = 0.0f;
@@ -72,7 +72,7 @@ public class Socket_Communicator_CS : MonoBehaviour
             StreamReader reader = new StreamReader(stream, Encoding.UTF8);
             byte[] buffer = new byte[4096];
 
-            while (true)
+            while (!shuttingDown)
             {
                 string json = reader.ReadLine();
 
@@ -84,7 +84,7 @@ public class Socket_Communicator_CS : MonoBehaviour
                     TrackPacket packet =
                         JsonUtility.FromJson<TrackPacket>(json);
 
-                    Debug.Log($"RAW JSON = {json}");
+                    //Debug.Log($"RAW JSON = {json}");
 
                     lock (dataLock)
                     {
@@ -137,21 +137,24 @@ public class Socket_Communicator_CS : MonoBehaviour
             // TankController.SetTrackInput(leftTrack, rightTrack);
         }
     }
+    void CloseSocket()
+    {
+        shuttingDown = true;
+
+        try { client?.Close(); } catch { }
+        try { listener?.Stop(); } catch { }
+
+        if (serverThread != null && serverThread.IsAlive)
+            serverThread.Join(200);
+    }
+
+    void OnDestroy()
+    {
+        CloseSocket();
+    }
 
     void OnApplicationQuit()
     {
-        try
-        {
-            shuttingDown = true;
-
-            client?.Close();
-            listener?.Stop();
-
-            if (serverThread != null && serverThread.IsAlive)
-                serverThread.Interrupt();
-        }
-        catch
-        {
-        }
+        CloseSocket();
     }
 }

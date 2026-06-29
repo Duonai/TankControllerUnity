@@ -79,7 +79,10 @@ namespace ChobiAssets.KTP
             else
             {
 #if !UNITY_ANDROID && !UNITY_IPHONE
-                inputScript = gameObject.AddComponent<Wheel_Control_Input_01_Desktop_CS>();
+                if (transform.parent.CompareTag("Enemy") || transform.parent.CompareTag("Enemy2"))
+                    inputScript = gameObject.AddComponent<Wheel_Control_Input_02_Desktop_CS>();
+                else
+                    inputScript = gameObject.AddComponent<Wheel_Control_Input_01_Desktop_CS>();
 #else
             inputScript = gameObject.AddComponent<Wheel_Control_Input_02_Mobile_CS>();
 #endif
@@ -89,7 +92,8 @@ namespace ChobiAssets.KTP
 
         void Update()
         {
-            if (isPlayer || aiScript)
+            //if (isPlayer || aiScript)
+            if(true)
             {
                 inputScript.Get_Input();
                 Speed_Control();

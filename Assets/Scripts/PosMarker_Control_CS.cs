@@ -142,6 +142,7 @@ namespace ChobiAssets.KTP
                                     friendColor.a = 1.0f;
                                     break;
                             }
+                            //friendColor.a = 0.0f;
                             markerDictionary[idScriptsList[i]].markerImage.color = friendColor;
                         }
                         else
@@ -160,6 +161,7 @@ namespace ChobiAssets.KTP
                                 case 0: // Defensive.
                                     markerDictionary[idScriptsList[i]].markerImage.enabled = true;
                                     enemyColor.a = 0.25f;
+                                    //enemyColor.a = 0.0f;
                                     markerDictionary[idScriptsList[i]].markerImage.color = enemyColor;
                                     markerDictionary[idScriptsList[i]].markerTransform.localScale = Vector3.one;
 
@@ -169,6 +171,7 @@ namespace ChobiAssets.KTP
                                     markerDictionary[idScriptsList[i]].markerImage.enabled = true;
                                     // Set the alpha.
                                     enemyColor.a = 1.0f;
+                                    //enemyColor.a = 0.0f;
                                     markerDictionary[idScriptsList[i]].markerImage.color = enemyColor;
                                     markerDictionary[idScriptsList[i]].markerTransform.localScale = Vector3.one * 1.5f;
                                     break;

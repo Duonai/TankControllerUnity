@@ -8933,7 +8933,7 @@ MonoBehaviour:
   interval: 5
   isPlayer: 0
   relationship: 0
-  durability: 100
+  durability: 200
   maxSpeed: 12
   attackForce: 100
   reloadTimeMultiplier: 1
@@ -18870,14 +18870,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tankPrefab: {fileID: 101990, guid: e8f1a53808306214197b62029a466bff, type: 3}
-  interval: 5
+  interval: 3
   isPlayer: 0
   relationship: 1
-  durability: 300
-  maxSpeed: 8
-  attackForce: 150
-  reloadTimeMultiplier: 1
-  cost: 2
+  durability: 200
+  maxSpeed: 12
+  attackForce: 200
+  reloadTimeMultiplier: 0.8
+  cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5
   patrolType: 1
@@ -22460,7 +22460,7 @@ PrefabInstance:
     - target: {fileID: 4195831189720450125, guid: c571ee73678991543aeecd81c664a19a,
         type: 3}
       propertyPath: requiredKillCount
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4331655581534698642, guid: c571ee73678991543aeecd81c664a19a,
         type: 3}
@@ -39884,7 +39884,7 @@ MonoBehaviour:
   interval: 5
   isPlayer: 0
   relationship: 0
-  durability: 100
+  durability: 200
   maxSpeed: 12
   attackForce: 100
   reloadTimeMultiplier: 1
@@ -40687,9 +40687,9 @@ MonoBehaviour:
   interval: 5
   isPlayer: 1
   relationship: 0
-  durability: 200
+  durability: 300
   maxSpeed: 15
-  attackForce: 200
+  attackForce: 250
   reloadTimeMultiplier: 1
   cost: 2
   waypointPack: {fileID: 1907140072}
@@ -42087,14 +42087,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tankPrefab: {fileID: 101990, guid: e8f1a53808306214197b62029a466bff, type: 3}
-  interval: 5
+  interval: 3
   isPlayer: 0
   relationship: 1
-  durability: 300
-  maxSpeed: 8
-  attackForce: 150
-  reloadTimeMultiplier: 1
-  cost: 2
+  durability: 200
+  maxSpeed: 12
+  attackForce: 200
+  reloadTimeMultiplier: 0.8
+  cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5
   patrolType: 1
@@ -43760,6 +43760,51 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1295972523}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1301068311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1301068312}
+  - component: {fileID: 1301068313}
+  m_Layer: 0
+  m_Name: Communicator3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1301068312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301068311}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.111351, y: -52.959007, z: 46.90368}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1301068313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301068311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae9b91d325d8fc428ee1decc870a918, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  port: 5014
+  command: none
 --- !u!4 &1303916711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 488916, guid: f97b1344f5c711b4b922c665b6c03f72,
@@ -53433,14 +53478,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tankPrefab: {fileID: 101990, guid: e8f1a53808306214197b62029a466bff, type: 3}
-  interval: 5
+  interval: 3
   isPlayer: 0
   relationship: 1
-  durability: 300
-  maxSpeed: 8
-  attackForce: 150
-  reloadTimeMultiplier: 1
-  cost: 2
+  durability: 200
+  maxSpeed: 12
+  attackForce: 200
+  reloadTimeMultiplier: 0.8
+  cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5
   patrolType: 1
@@ -55246,7 +55291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7848e9e552ddbf8468aa9f9e845d7017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  port: 5011
+  port: 5013
   turret_yaw: 0
   turret_pitch: 0
   fire: idle
@@ -55680,7 +55725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f21efde71716e1b4a9234e3c03b66702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  port: 5010
+  port: 5012
   leftTrack: 0
   rightTrack: 0
 --- !u!4 &1639688758
@@ -59806,7 +59851,7 @@ MonoBehaviour:
   interval: 5
   isPlayer: 0
   relationship: 0
-  durability: 100
+  durability: 200
   maxSpeed: 12
   attackForce: 100
   reloadTimeMultiplier: 1
@@ -67478,14 +67523,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tankPrefab: {fileID: 101990, guid: e8f1a53808306214197b62029a466bff, type: 3}
-  interval: 5
+  interval: 3
   isPlayer: 0
   relationship: 1
-  durability: 300
-  maxSpeed: 8
-  attackForce: 150
-  reloadTimeMultiplier: 1
-  cost: 2
+  durability: 200
+  maxSpeed: 12
+  attackForce: 200
+  reloadTimeMultiplier: 0.8
+  cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5
   patrolType: 1

@@ -16,10 +16,17 @@ namespace ChobiAssets.KTP
         [HideInInspector] public float leftTrackInput = 0.0f;
 
         private Socket_Communicator_CS socket;
+        private UnityServer server;
+        private UnityClient client;
 
         private void Start()
         {
             socket = GameObject.Find("Communicator").GetComponent<Socket_Communicator_CS>();
+
+            if (transform.parent.CompareTag("Player"))
+                server = GameObject.Find("VersusServer").GetComponent<UnityServer>();
+            else if (transform.parent.CompareTag("Player2"))
+                client = GameObject.Find("VersusClient").GetComponent<UnityClient>();
         }
 
         public override void Get_Input()
@@ -68,8 +75,8 @@ namespace ChobiAssets.KTP
             //// Set the aixs.
             //wheelControlScript.moveAxis = currentAxis;
 
-            rightTrackInput = socket.leftTrack;
-            leftTrackInput = socket.rightTrack;
+            leftTrackInput = socket.leftTrack;
+            rightTrackInput = socket.rightTrack;
 
             Vector2 moveAxis;
             moveAxis.x = (leftTrackInput - rightTrackInput) * 0.5f;
@@ -78,6 +85,21 @@ namespace ChobiAssets.KTP
 
             // Set the aixs.
             wheelControlScript.moveAxis = moveAxis;
+
+            //for server 1p
+            if (transform.parent.CompareTag("Player"))
+            {
+                server.bodyRotation = transform.eulerAngles.y;
+                server.posX = transform.position.x;
+                server.posZ = transform.position.z;
+            }
+            //for client 2p
+            else if (transform.parent.CompareTag("Player2"))
+            {
+                client.bodyRotation = transform.eulerAngles.y;
+                client.posX = transform.position.x;
+                client.posZ = transform.position.z;
+            }
         }
 #endif
     }
