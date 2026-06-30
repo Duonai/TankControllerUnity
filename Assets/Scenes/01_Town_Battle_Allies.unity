@@ -8285,6 +8285,98 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 212811699}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &212970028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 212970029}
+  - component: {fileID: 212970032}
+  - component: {fileID: 212970031}
+  - component: {fileID: 212970030}
+  m_Layer: 5
+  m_Name: Text_Scanning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &212970029
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212970028}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1584930236}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -380, y: -43}
+  m_SizeDelta: {x: 240, y: 40}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &212970030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212970028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 169d16196a58938489c5f0cf149f4f20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisText: {fileID: 0}
+--- !u!114 &212970031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212970028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 3
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Scan: '
+--- !u!222 &212970032
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212970028}
+  m_CullTransparentMesh: 0
 --- !u!4 &215875404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 437256, guid: 7849a9be56e4c9b41943b77307ed52f0,
@@ -8936,7 +9028,7 @@ MonoBehaviour:
   durability: 200
   maxSpeed: 12
   attackForce: 100
-  reloadTimeMultiplier: 1
+  reloadTimeMultiplier: 1.75
   cost: 1
   waypointPack: {fileID: 1907140072}
   waypointRadius: 5
@@ -13799,6 +13891,100 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 380450212}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &380460794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 380460795}
+  - component: {fileID: 380460798}
+  - component: {fileID: 380460797}
+  - component: {fileID: 380460796}
+  m_Layer: 5
+  m_Name: Text_Ammo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &380460795
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380460794}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1584930236}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -380, y: -73}
+  m_SizeDelta: {x: 360, y: 40}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &380460796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380460794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d70e25f4b29e2454dbdb500182c4832a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thisText: {fileID: 0}
+  ammoCount: 0
+  reloading: 0
+--- !u!114 &380460797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380460794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 3
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Ammo: '
+--- !u!222 &380460798
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380460794}
+  m_CullTransparentMesh: 0
 --- !u!1001 &383592983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18876,7 +19062,7 @@ MonoBehaviour:
   durability: 200
   maxSpeed: 12
   attackForce: 200
-  reloadTimeMultiplier: 0.8
+  reloadTimeMultiplier: 1.5
   cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5
@@ -39887,7 +40073,7 @@ MonoBehaviour:
   durability: 200
   maxSpeed: 12
   attackForce: 100
-  reloadTimeMultiplier: 1
+  reloadTimeMultiplier: 1.75
   cost: 1
   waypointPack: {fileID: 1907140072}
   waypointRadius: 5
@@ -40687,10 +40873,10 @@ MonoBehaviour:
   interval: 5
   isPlayer: 1
   relationship: 0
-  durability: 300
-  maxSpeed: 15
+  durability: 350
+  maxSpeed: 8
   attackForce: 250
-  reloadTimeMultiplier: 1
+  reloadTimeMultiplier: 0.5
   cost: 2
   waypointPack: {fileID: 1907140072}
   waypointRadius: 5
@@ -42093,7 +42279,7 @@ MonoBehaviour:
   durability: 200
   maxSpeed: 12
   attackForce: 200
-  reloadTimeMultiplier: 0.8
+  reloadTimeMultiplier: 1.5
   cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5
@@ -43805,6 +43991,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   port: 5014
   command: none
+  scanning: 0
+  reloading: 0
 --- !u!4 &1303916711 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 488916, guid: f97b1344f5c711b4b922c665b6c03f72,
@@ -53484,7 +53672,7 @@ MonoBehaviour:
   durability: 200
   maxSpeed: 12
   attackForce: 200
-  reloadTimeMultiplier: 0.8
+  reloadTimeMultiplier: 1.5
   cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5
@@ -53857,6 +54045,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1584930236 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224097606425083532, guid: c571ee73678991543aeecd81c664a19a,
+    type: 3}
+  m_PrefabInstance: {fileID: 670808507}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1587914419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59854,7 +60048,7 @@ MonoBehaviour:
   durability: 200
   maxSpeed: 12
   attackForce: 100
-  reloadTimeMultiplier: 1
+  reloadTimeMultiplier: 1.75
   cost: 1
   waypointPack: {fileID: 1907140072}
   waypointRadius: 5
@@ -67529,7 +67723,7 @@ MonoBehaviour:
   durability: 200
   maxSpeed: 12
   attackForce: 200
-  reloadTimeMultiplier: 0.8
+  reloadTimeMultiplier: 1.5
   cost: 1
   waypointPack: {fileID: 1908649316}
   waypointRadius: 5

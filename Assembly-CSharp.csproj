@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_01_Desktop_CS.cs" />
     <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_02_Desktop_CS.cs" />
     <Compile Include="Assets\Scripts\Aiming_Control_Scripts\Aiming_Control_Input_02_Mobile_CS.cs" />
+    <Compile Include="Assets\Scripts\Ammo_Script_CS.cs" />
     <Compile Include="Assets\Scripts\Armor_Collider_CS.cs" />
     <Compile Include="Assets\Scripts\Audio_Manager_CS.cs" />
     <Compile Include="Assets\Scripts\Barrel_Base_CS.cs" />
@@ -125,6 +126,7 @@
     <Compile Include="Assets\Scripts\Reloading_Circle_CS.cs" />
     <Compile Include="Assets\Scripts\Respawning_Circle_CS.cs" />
     <Compile Include="Assets\Scripts\SE_Control_CS.cs" />
+    <Compile Include="Assets\Scripts\Scanning_Script_CS.cs" />
     <Compile Include="Assets\Scripts\Scene_Open_CS.cs" />
     <Compile Include="Assets\Scripts\Score_Manager_CS.cs" />
     <Compile Include="Assets\Scripts\Socket_Communicator2_CS.cs" />

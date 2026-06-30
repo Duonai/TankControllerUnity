@@ -11,10 +11,12 @@ namespace ChobiAssets.KTP
         [Tooltip("카메라 회전 속도")] public float keyRotationSpeed = 30f; // The speed of camera rotation by key input.
 
         private Socket_Communicator2_CS socket;
+        private Socket_Communicator3_CS socket3;
 
         private void Start()
         {
             socket = GameObject.Find("Communicator2").GetComponent<Socket_Communicator2_CS>();
+            try { socket3 = GameObject.Find("Communicator3").GetComponent<Socket_Communicator3_CS>(); } catch { }
         }
 
         public override void Get_Input()
@@ -36,6 +38,26 @@ namespace ChobiAssets.KTP
 
             float pitch = socket.turret_yaw;
             float yaw = socket.turret_pitch;
+
+            if (socket3 != null)
+            {
+                if (socket3.command == "turret_rotate_right")
+                {
+                    pitch = 1.2f;
+                }
+                else if (socket3.command == "turret_rotate_left")
+                {
+                    pitch = -1.2f;
+                }
+                else if (socket3.command == "turret_up")
+                {
+                    yaw = 1.0f;
+                }
+                else if (socket3.command == "turret_down")
+                {
+                    yaw = -1.0f;
+                }
+            }
 
             // J = Left, L = Right, I = Up, K = Down
             if (pitch != 0)

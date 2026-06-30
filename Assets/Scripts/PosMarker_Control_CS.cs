@@ -1,5 +1,6 @@
-﻿using UnityEngine;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Net.Sockets;
+using UnityEngine;
 using UnityEngine.UI;
 
 
@@ -43,10 +44,19 @@ namespace ChobiAssets.KTP
         Quaternion leftRot = Quaternion.Euler(new Vector3(0.0f, 0.0f, -90.0f));
         Quaternion rightRot = Quaternion.Euler(new Vector3(0.0f, 0.0f, 90.0f));
 
+        private Socket_Communicator3_CS socket3;
+        public bool markerReady = true;
+        public bool markerEnabled = false;
+        public float timer = 0.0f;
 
         void Awake()
         { // This function must be exected before "Start()", because the Canvas is required in "Receive_ID_Script()" called in "Start()".
             Initialize();
+        }
+
+        private void Start()
+        {
+            try { socket3 = GameObject.Find("Communicator3").GetComponent<Socket_Communicator3_CS>(); } catch { }
         }
 
 
@@ -103,6 +113,37 @@ namespace ChobiAssets.KTP
             markerDictionary.Add(idScript, newProp);
         }
 
+        private void Update()
+        {
+            if (socket3 != null && socket3.scanning && markerReady)
+            {
+                socket3.scanning = false;
+
+                markerEnabled = true;
+                markerReady = false;
+                timer = 7f;
+            }
+
+            if (!markerReady)
+            {
+                timer -= Time.deltaTime;
+
+                if (timer <= 0f)
+                {
+                    if (markerEnabled)
+                    {
+                        // 표시 종료 → 쿨타임 시작
+                        markerEnabled = false;
+                        timer = 7f;
+                    }
+                    else
+                    {
+                        // 쿨타임 종료
+                        markerReady = true;
+                    }
+                }
+            }
+        }
 
         void LateUpdate()
         {
@@ -135,19 +176,26 @@ namespace ChobiAssets.KTP
                             switch (markerDictionary[idScriptsList[i]].aiScript.actionType)
                             {
                                 case 0: // Defensive.
-                                    friendColor.a = 0.25f;
+                                    friendColor.a = 1.0f;
                                     break;
 
                                 case 1: // Offensive.
                                     friendColor.a = 1.0f;
                                     break;
                             }
-                            //friendColor.a = 0.0f;
+
+                            if(markerEnabled == false)
+                                friendColor.a = 0.0f;
+
                             markerDictionary[idScriptsList[i]].markerImage.color = friendColor;
                         }
                         else
                         { // Not AI tank.
                             markerDictionary[idScriptsList[i]].markerImage.enabled = true;
+                            if (markerEnabled == false)
+                                friendColor.a = 0.0f;
+                            else
+                                friendColor.a = 1.0f;
                             markerDictionary[idScriptsList[i]].markerImage.color = friendColor;
                         }
                         break;
@@ -160,8 +208,11 @@ namespace ChobiAssets.KTP
                             {
                                 case 0: // Defensive.
                                     markerDictionary[idScriptsList[i]].markerImage.enabled = true;
-                                    enemyColor.a = 0.25f;
-                                    //enemyColor.a = 0.0f;
+                                    enemyColor.a = 1.0f;
+
+                                    if (markerEnabled == false)
+                                        enemyColor.a = 0.0f;
+
                                     markerDictionary[idScriptsList[i]].markerImage.color = enemyColor;
                                     markerDictionary[idScriptsList[i]].markerTransform.localScale = Vector3.one;
 
@@ -171,7 +222,10 @@ namespace ChobiAssets.KTP
                                     markerDictionary[idScriptsList[i]].markerImage.enabled = true;
                                     // Set the alpha.
                                     enemyColor.a = 1.0f;
-                                    //enemyColor.a = 0.0f;
+
+                                    if (markerEnabled == false)
+                                        enemyColor.a = 0.0f;
+
                                     markerDictionary[idScriptsList[i]].markerImage.color = enemyColor;
                                     markerDictionary[idScriptsList[i]].markerTransform.localScale = Vector3.one * 1.5f;
                                     break;

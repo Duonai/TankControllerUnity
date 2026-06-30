@@ -40,9 +40,9 @@ namespace ChobiAssets.KTP
         {
             Initialize();
             if (transform.parent.CompareTag("Player") || transform.parent.CompareTag("Enemy"))
-                server = GameObject.Find("VersusServer").GetComponent<UnityServer>();
+                try { server = GameObject.Find("VersusServer").GetComponent<UnityServer>(); } catch { }
             else if (transform.parent.CompareTag("Player2") || transform.parent.CompareTag("Enemy2"))
-                client = GameObject.Find("VersusClient").GetComponent<UnityClient>();
+                try { client = GameObject.Find("VersusClient").GetComponent<UnityClient>(); } catch { }
         }
 
 
@@ -131,17 +131,17 @@ namespace ChobiAssets.KTP
             // Rotate
             angleX = Mathf.Clamp(angleX, maxElevation, maxDepression);
 
-            if (transform.parent.CompareTag("Enemy"))
+            if (transform.parent.CompareTag("Enemy") && server != null)
                 angleX = server.gunPitch2P;
-            else if (transform.parent.CompareTag("Enemy2"))
+            else if (transform.parent.CompareTag("Enemy2") && client != null)
                 angleX = client.gunPitch1P;
             
             currentLocalAngles.x = angleX;
             thisTransform.localEulerAngles = currentLocalAngles;
 
-            if (transform.parent.CompareTag("Player"))
+            if (transform.parent.CompareTag("Player") && server != null)
                 server.gunPitch = angleX;
-            else if (transform.parent.CompareTag("Player2"))
+            else if (transform.parent.CompareTag("Player2") && client != null)
                 client.gunPitch = angleX;
 
             // Set the "isReady" for AI.

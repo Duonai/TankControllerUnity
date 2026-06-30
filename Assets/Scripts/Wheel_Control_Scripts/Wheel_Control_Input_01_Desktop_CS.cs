@@ -18,15 +18,18 @@ namespace ChobiAssets.KTP
         private Socket_Communicator_CS socket;
         private UnityServer server;
         private UnityClient client;
+        private Socket_Communicator3_CS socket3;
 
         private void Start()
         {
             socket = GameObject.Find("Communicator").GetComponent<Socket_Communicator_CS>();
 
+            try { socket3 = GameObject.Find("Communicator3").GetComponent<Socket_Communicator3_CS>(); } catch { }
+
             if (transform.parent.CompareTag("Player"))
-                server = GameObject.Find("VersusServer").GetComponent<UnityServer>();
+                try { server = GameObject.Find("VersusServer").GetComponent<UnityServer>(); } catch { }
             else if (transform.parent.CompareTag("Player2"))
-                client = GameObject.Find("VersusClient").GetComponent<UnityClient>();
+                try{ client = GameObject.Find("VersusClient").GetComponent<UnityClient>(); } catch { }
         }
 
         public override void Get_Input()
@@ -78,6 +81,30 @@ namespace ChobiAssets.KTP
             leftTrackInput = socket.leftTrack;
             rightTrackInput = socket.rightTrack;
 
+            if (socket3 != null)
+            {
+                if (socket3.command == "move_forward")
+                {
+                    leftTrackInput = 1.0f;
+                    rightTrackInput = 1.0f;
+                }
+                else if (socket3.command == "move_backward")
+                {
+                    leftTrackInput = -1.0f;
+                    rightTrackInput = -1.0f;
+                }
+                else if (socket3.command == "pivot_left")
+                {
+                    leftTrackInput = -1.0f;
+                    rightTrackInput = 1.0f;
+                }
+                else if (socket3.command == "pivot_right")
+                {
+                    leftTrackInput = 1.0f;
+                    rightTrackInput = -1.0f;
+                }
+            }
+
             Vector2 moveAxis;
             moveAxis.x = (leftTrackInput - rightTrackInput) * 0.5f;
             moveAxis.y = (leftTrackInput + rightTrackInput) * 0.5f;
@@ -87,14 +114,14 @@ namespace ChobiAssets.KTP
             wheelControlScript.moveAxis = moveAxis;
 
             //for server 1p
-            if (transform.parent.CompareTag("Player"))
+            if (transform.parent.CompareTag("Player") && server != null)
             {
                 server.bodyRotation = transform.eulerAngles.y;
                 server.posX = transform.position.x;
                 server.posZ = transform.position.z;
             }
             //for client 2p
-            else if (transform.parent.CompareTag("Player2"))
+            else if (transform.parent.CompareTag("Player2") && client != null)
             {
                 client.bodyRotation = transform.eulerAngles.y;
                 client.posX = transform.position.x;

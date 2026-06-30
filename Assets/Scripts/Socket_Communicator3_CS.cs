@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 [Serializable]
 public class VoiceResult
@@ -42,6 +43,9 @@ public class Socket_Communicator3_CS : MonoBehaviour
 
     private bool shuttingDown = false;
 
+    public bool scanning = false;
+    public bool reloading = false;
+
     void Start()
     {
         serverThread = new Thread(ServerLoop);
@@ -78,7 +82,7 @@ public class Socket_Communicator3_CS : MonoBehaviour
                     VoicePacket packet =
                         JsonUtility.FromJson<VoicePacket>(json);
 
-                    Debug.Log($"RAW JSON = {json}");
+                    //Debug.Log($"RAW JSON = {json}");
 
                     lock (dataLock)
                     {
@@ -125,6 +129,11 @@ public class Socket_Communicator3_CS : MonoBehaviour
         // 예시: 탱크 제어
 
         command = data.command;
+
+        if(command == "scanning")
+            scanning = true;
+        else if (command == "reload")
+            reloading = true;
 
         // TankController.SetTrackInput(leftTrack, rightTrack);
     }

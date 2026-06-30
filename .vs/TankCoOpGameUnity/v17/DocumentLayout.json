@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\socket_communicator3_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\socket_communicator3_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\socket_communicator2_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\socket_communicator2_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\socket_communicator_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\socket_communicator_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\posmarker_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\posmarker_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|c:\\users\\june2\\downloads\\tankcoopgameunity\\assets\\scripts\\turret_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\unityserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unityserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\unityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\cannon_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cannon_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\fire_control_scripts\\fire_control_input_01_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire_control_scripts\\fire_control_input_01_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\fire_control_scripts\\fire_control_input_02_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,12 +15,36 @@
       "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire_control_scripts\\fire_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\fire_control_scripts\\fire_control_input_01_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fire_control_scripts\\fire_control_input_01_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\posmarker_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\posmarker_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\wheel_control_scripts\\wheel_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wheel_control_scripts\\wheel_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|c:\\users\\june2\\downloads\\tankcoopgameunity\\assets\\scripts\\scanning_script_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scanning_script_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|c:\\users\\june2\\downloads\\tankcoopgameunity\\assets\\scripts\\fps_counter_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fps_counter_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\socket_communicator3_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\socket_communicator3_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\unityserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unityserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\unityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unityclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\socket_communicator2_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\socket_communicator2_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\socket_communicator_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\socket_communicator_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\wheel_control_scripts\\wheel_control_input_01_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,6 +53,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\wheel_control_scripts\\wheel_control_input_02_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wheel_control_scripts\\wheel_control_input_02_desktop_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\wheel_control_scripts\\wheel_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wheel_control_scripts\\wheel_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\wheel_rotate_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wheel_rotate_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\turret_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\assets\\scripts\\cannon_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79E842A1-3BB1-2530-078D-EB80EE57B139}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cannon_control_cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,20 +82,46 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scanning_Script_CS.cs",
+              "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Scanning_Script_CS.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scanning_Script_CS.cs",
+              "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Scanning_Script_CS.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scanning_Script_CS.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T01:06:19.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FPS_Counter_CS.cs",
+              "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\FPS_Counter_CS.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FPS_Counter_CS.cs",
+              "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\FPS_Counter_CS.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FPS_Counter_CS.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAxwCYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T01:05:10.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "PosMarker_Control_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\PosMarker_Control_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PosMarker_Control_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\PosMarker_Control_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\PosMarker_Control_CS.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAYwKIAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAiwLIAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T06:55:13.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Cannon_Control_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Cannon_Control_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cannon_Control_CS.cs",
@@ -95,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
               "Title": "Turret_Control_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Turret_Control_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Turret_Control_CS.cs",
@@ -103,84 +141,98 @@
               "RelativeToolTip": "Assets\\Scripts\\Turret_Control_CS.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAABIwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T00:57:08.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-29T00:57:08.172Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Wheel_Control_Input_02_Desktop_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_02_Desktop_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_02_Desktop_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_02_Desktop_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_02_Desktop_CS.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAIwF4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAIwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T00:42:13.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Wheel_Control_Input_01_Desktop_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_01_Desktop_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_01_Desktop_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_01_Desktop_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_Input_01_Desktop_CS.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAIwB0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvxcAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T00:42:12.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
+              "Title": "Wheel_Rotate_CS.cs",
+              "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Rotate_CS.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Wheel_Rotate_CS.cs",
+              "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Rotate_CS.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Wheel_Rotate_CS.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvyUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T23:34:23.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Wheel_Control_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Wheel_Control_Scripts\\Wheel_Control_CS.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAF4AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-29T00:42:00.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Fire_Control_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_CS.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T01:08:57.986Z"
+              "WhenOpened": "2026-06-29T01:08:57.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Fire_Control_Input_02_Desktop_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_02_Desktop_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_02_Desktop_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_02_Desktop_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_02_Desktop_CS.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvxcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T01:09:22.202Z"
+              "WhenOpened": "2026-06-29T01:09:22.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Fire_Control_Input_01_Desktop_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_01_Desktop_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_01_Desktop_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_01_Desktop_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Fire_Control_Scripts\\Fire_Control_Input_01_Desktop_CS.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T00:31:50.197Z"
+              "WhenOpened": "2026-06-29T00:31:50.197Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "UnityClient.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\UnityClient.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnityClient.cs",
@@ -192,54 +244,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UnityServer.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\UnityServer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnityServer.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\UnityServer.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnityServer.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAYwJUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAQwJUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-28T23:47:05.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Socket_Communicator3_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Socket_Communicator3_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Socket_Communicator3_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Socket_Communicator3_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Socket_Communicator3_CS.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAUwEoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAgwIQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T08:03:40.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-29T08:03:40.334Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Socket_Communicator2_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Socket_Communicator2_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Socket_Communicator2_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Socket_Communicator2_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Socket_Communicator2_CS.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-29T08:03:39.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-29T08:03:39.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Socket_Communicator_CS.cs",
               "DocumentMoniker": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Socket_Communicator_CS.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Socket_Communicator_CS.cs",
               "ToolTip": "C:\\Users\\june2\\Downloads\\TankCoOpGameUnity\\Assets\\Scripts\\Socket_Communicator_CS.cs",
               "RelativeToolTip": "Assets\\Scripts\\Socket_Communicator_CS.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAUwIsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAUwIsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T23:47:36.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-28T23:47:36.3Z"
             }
           ]
         }

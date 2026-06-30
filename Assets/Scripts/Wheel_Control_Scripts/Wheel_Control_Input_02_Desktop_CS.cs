@@ -75,7 +75,7 @@ namespace ChobiAssets.KTP
             //wheelControlScript.moveAxis = currentAxis;
 
             //for client 2p
-            if (transform.parent.CompareTag("Enemy"))
+            if (transform.parent.CompareTag("Enemy") && server != null)
             {
                 Vector3 pos = transform.position;
                 pos.x = server.posX2P;
@@ -86,7 +86,7 @@ namespace ChobiAssets.KTP
                 rot.y = server.bodyRotation2P;
                 transform.eulerAngles = rot;
             }
-            else if (transform.parent.CompareTag("Enemy2"))
+            else if (transform.parent.CompareTag("Enemy2") && client != null)
             {
                 Vector3 pos = transform.position;
                 pos.x = client.posX1P;
