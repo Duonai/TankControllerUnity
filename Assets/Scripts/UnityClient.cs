@@ -12,7 +12,11 @@ public class ClientMessage
     public float posX;
     public float posZ;
     public float bodyRotation;
+
     public bool fire;
+
+    public float HP;
+    public float HP2;
 }
 
 public class UnityClient : MonoBehaviour
@@ -26,6 +30,8 @@ public class UnityClient : MonoBehaviour
     public float posZ;
     public float bodyRotation;
     public bool fire;
+    public float HP = 600f;
+    public float HP2 = 600f;
 
     public float turretYaw1P;
     public float gunPitch1P;
@@ -33,6 +39,8 @@ public class UnityClient : MonoBehaviour
     public float posZ1P;
     public float bodyRotation1P;
     public bool fire1P;
+    public float HP1P = 600f;
+    public float HP1P2 = 600f;
 
     TcpClient client;
 
@@ -92,6 +100,8 @@ public class UnityClient : MonoBehaviour
                     {
                         fire1P = true;
                     }
+                    HP1P = data.HP;
+                    HP1P2 = data.HP2;
                 }
             }
         }
@@ -123,7 +133,7 @@ public class UnityClient : MonoBehaviour
                 writer.WriteLine(json);
                 fire = false;
                 count++;
-                Thread.Sleep(10);
+                Thread.Sleep(5);
             }
         }
         catch (Exception e)

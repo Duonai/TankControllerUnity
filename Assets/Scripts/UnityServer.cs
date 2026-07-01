@@ -15,6 +15,9 @@ public class TankMessage
     public float bodyRotation;
 
     public bool fire;
+
+    public float HP;
+    public float HP2;
 }
 
 public class UnityServer : MonoBehaviour
@@ -27,6 +30,8 @@ public class UnityServer : MonoBehaviour
     public float posZ;
     public float bodyRotation;
     public bool fire;
+    public float HP = 600f;
+    public float HP2 = 600f;
 
     public float turretYaw2P;
     public float gunPitch2P;
@@ -34,6 +39,8 @@ public class UnityServer : MonoBehaviour
     public float posZ2P;
     public float bodyRotation2P;
     public bool fire2P;
+    public float HP2P = 600f;
+    public float HP2P2 = 600f;
 
     TcpListener listener;
     TcpClient client;
@@ -144,13 +151,15 @@ public class UnityServer : MonoBehaviour
                 msg.posZ = posZ;
                 msg.bodyRotation = bodyRotation;
                 msg.fire = fire;
+                msg.HP = HP;
+                msg.HP2 = HP2;
 
                 string json = JsonUtility.ToJson(msg);
 
                 writer.WriteLine(json);
                 fire = false;
                 count++;
-                Thread.Sleep(10);
+                Thread.Sleep(5);
             }
         }
         catch (Exception e)

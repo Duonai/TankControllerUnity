@@ -1269,7 +1269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24b1d415a4ea3014f85feb61059f86dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  serverIP: 10.56.130.71
+  serverIP: 10.56.130.80
   port: 6001
   turretYaw: 0
   gunPitch: 0
@@ -4904,6 +4904,10 @@ PrefabInstance:
     - target: {fileID: 11463590, guid: 37011bb60ee4c374a96651f3a67b4ade, type: 3}
       propertyPath: reloadTime
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11495036, guid: 37011bb60ee4c374a96651f3a67b4ade, type: 3}
+      propertyPath: durability
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 11498094, guid: 37011bb60ee4c374a96651f3a67b4ade, type: 3}
       propertyPath: isPlayer
@@ -58562,7 +58566,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11424286, guid: 5c0378b47d76c394dbb09985cf5dc360, type: 3}
       propertyPath: durability
-      value: 300
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 11441318, guid: 5c0378b47d76c394dbb09985cf5dc360, type: 3}
       propertyPath: reloadTime

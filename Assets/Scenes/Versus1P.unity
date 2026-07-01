@@ -4908,6 +4908,10 @@ PrefabInstance:
       propertyPath: maxSpeed
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 11495036, guid: 37011bb60ee4c374a96651f3a67b4ade, type: 3}
+      propertyPath: durability
+      value: 600
+      objectReference: {fileID: 0}
     - target: {fileID: 11498094, guid: 37011bb60ee4c374a96651f3a67b4ade, type: 3}
       propertyPath: isPlayer
       value: 1
@@ -58659,7 +58663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11424286, guid: 5c0378b47d76c394dbb09985cf5dc360, type: 3}
       propertyPath: durability
-      value: 300
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 11441318, guid: 5c0378b47d76c394dbb09985cf5dc360, type: 3}
       propertyPath: reloadTime

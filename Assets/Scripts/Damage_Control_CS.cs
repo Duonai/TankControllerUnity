@@ -39,10 +39,14 @@ namespace ChobiAssets.KTP
         bool isDead;
         AI_Control_CS aiScript;
 
+        private UnityServer server;
+        private UnityClient client;
 
         void Start()
         {
             Initialize();
+            try { server = GameObject.Find("VersusServer").GetComponent<UnityServer>(); } catch { }
+            try { client = GameObject.Find("VersusClient").GetComponent<UnityClient>(); } catch { }
         }
 
 
@@ -117,6 +121,24 @@ namespace ChobiAssets.KTP
         {
             // Check the hight and the rotation.
             Check_Height_And_Rotation();
+
+            if (server != null && transform.parent.CompareTag("Player"))
+                server.HP = currentDurability;
+            else if (server != null && transform.parent.CompareTag("Enemy"))
+                server.HP2 = currentDurability;
+
+            if (client != null && transform.parent.CompareTag("Player2"))
+            {
+                currentDurability = client.HP1P;
+                if (currentDurability <= 0.0f && isDead == false)
+                    Start_Destroying();
+            }
+            else if (client != null && transform.parent.CompareTag("Enemy2"))
+            {
+                currentDurability = client.HP1P2;
+                if (currentDurability <= 0.0f && isDead == false)
+                    Start_Destroying();
+            }
         }
 
 
